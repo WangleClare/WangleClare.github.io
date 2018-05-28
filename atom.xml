@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Clare</title>
+  
+  <subtitle>tiny mine,huge dream</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-05-28T11:38:33.855Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Wang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>思考</title>
+    <link href="http://yoursite.com/2018/05/28/%E6%80%9D%E8%80%83/"/>
+    <id>http://yoursite.com/2018/05/28/思考/</id>
+    <published>2018-05-28T11:35:52.000Z</published>
+    <updated>2018-05-28T11:38:33.855Z</updated>
+    
+    <content type="html"><![CDATA[<p>重装系统之后</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;重装系统之后&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>first article</title>
+    <link href="http://yoursite.com/2018/05/08/first-article/"/>
+    <id>http://yoursite.com/2018/05/08/first-article/</id>
+    <published>2018-05-07T16:07:55.000Z</published>
+    <updated>2018-05-07T16:12:39.274Z</updated>
+    
+    <content type="html"><![CDATA[<p>只是我的第一篇博客<br><img src="first-article/654.jpg" alt="boke"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;只是我的第一篇博客&lt;br&gt;&lt;img src=&quot;first-article/654.jpg&quot; alt=&quot;boke&quot;&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="游记" scheme="http://yoursite.com/tags/%E6%B8%B8%E8%AE%B0/"/>
+    
+  </entry>
+  
+</feed>
