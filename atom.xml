@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wangleclare.github.io/"/>
-  <updated>2018-05-29T13:19:35.924Z</updated>
+  <updated>2018-05-29T14:00:49.281Z</updated>
   <id>https://wangleclare.github.io/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试用例2</title>
+    <link href="https://wangleclare.github.io/2018/05/29/%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B2/"/>
+    <id>https://wangleclare.github.io/2018/05/29/测试用例2/</id>
+    <published>2018-05-29T13:59:32.000Z</published>
+    <updated>2018-05-29T14:00:49.281Z</updated>
+    
+    <content type="html"><![CDATA[<p>这篇不需要密码</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这篇不需要密码&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>测试用例1</title>
+    <link href="https://wangleclare.github.io/2018/05/29/%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B1/"/>
+    <id>https://wangleclare.github.io/2018/05/29/测试用例1/</id>
+    <published>2018-05-29T13:59:21.000Z</published>
+    <updated>2018-05-29T14:00:28.621Z</updated>
+    
+    <content type="html"><![CDATA[<p>输入密码访问</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;输入密码访问&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>测试</title>
