@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wangleclare.github.io/"/>
-  <updated>2018-05-28T11:38:33.855Z</updated>
+  <updated>2018-05-29T13:19:35.924Z</updated>
   <id>https://wangleclare.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="https://wangleclare.github.io/2018/05/29/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://wangleclare.github.io/2018/05/29/测试/</id>
+    <published>2018-05-29T13:18:36.000Z</published>
+    <updated>2018-05-29T13:19:35.924Z</updated>
+    
+    <content type="html"><![CDATA[<p>关于文章版权信息的测试</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;关于文章版权信息的测试&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>思考</title>
@@ -45,13 +67,13 @@
     <published>2018-05-07T16:07:55.000Z</published>
     <updated>2018-05-28T14:32:01.498Z</updated>
     
-    <content type="html"><![CDATA[<p>只是我的第一篇博客<br><img src="/2018/05/08/first-article/654.jpg" alt="boke"></p>]]></content>
+    <content type="html"><![CDATA[<p>只是我的第一篇博客<br><img src="first-article/654.jpg" alt="boke"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;只是我的第一篇博客&lt;br&gt;&lt;img src=&quot;/2018/05/08/first-article/654.jpg&quot; alt=&quot;boke&quot;&gt;&lt;/p&gt;
+        &lt;p&gt;只是我的第一篇博客&lt;br&gt;&lt;img src=&quot;first-article/654.jpg&quot; alt=&quot;boke&quot;&gt;&lt;/p&gt;
 
       
     
