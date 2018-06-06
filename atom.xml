@@ -2,129 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Clare</title>
   
-  <subtitle>tiny mine,huge dream</subtitle>
+  <subtitle>人生各自精彩..</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wangleclare.github.io/"/>
-  <updated>2018-05-29T14:00:49.281Z</updated>
+  <updated>2018-06-06T12:07:00.123Z</updated>
   <id>https://wangleclare.github.io/</id>
-  
-  <author>
-    <name>Wang</name>
-    
-  </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试用例2</title>
-    <link href="https://wangleclare.github.io/2018/05/29/%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B2/"/>
-    <id>https://wangleclare.github.io/2018/05/29/测试用例2/</id>
-    <published>2018-05-29T13:59:32.000Z</published>
-    <updated>2018-05-29T14:00:49.281Z</updated>
+    <title>排序算法</title>
+    <link href="https://wangleclare.github.io/2018/06/06/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    <id>https://wangleclare.github.io/2018/06/06/排序算法/</id>
+    <published>2018-06-06T11:52:09.000Z</published>
+    <updated>2018-06-06T12:07:00.123Z</updated>
     
-    <content type="html"><![CDATA[<p>这篇不需要密码</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;这篇不需要密码&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>测试用例1</title>
-    <link href="https://wangleclare.github.io/2018/05/29/%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B1/"/>
-    <id>https://wangleclare.github.io/2018/05/29/测试用例1/</id>
-    <published>2018-05-29T13:59:21.000Z</published>
-    <updated>2018-05-29T14:00:28.621Z</updated>
-    
-    <content type="html"><![CDATA[<p>输入密码访问</p>]]></content>
+    <content type="html"><![CDATA[<p>最近在看C语言的时候，看到关于排序算法的问题。排序算法作为数据结构中一类基础又常用的算法，属于必要掌握的一类。于是在这里将几种常见的排序算法作一番整理，日后一时忘记找起来也比较方便。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;输入密码访问&lt;/p&gt;
+        &lt;p&gt;最近在看C语言的时候，看到关于排序算法的问题。排序算法作为数据结构中一类基础又常用的算法，属于必要掌握的一类。于是在这里将几种常见的排序算法作一番整理，日后一时忘记找起来也比较方便。&lt;/p&gt;
 
       
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>测试</title>
-    <link href="https://wangleclare.github.io/2018/05/29/%E6%B5%8B%E8%AF%95/"/>
-    <id>https://wangleclare.github.io/2018/05/29/测试/</id>
-    <published>2018-05-29T13:18:36.000Z</published>
-    <updated>2018-05-29T13:19:35.924Z</updated>
-    
-    <content type="html"><![CDATA[<p>关于文章版权信息的测试</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;关于文章版权信息的测试&lt;/p&gt;
-
-      
-    
-    </summary>
+      <category term="C程序" scheme="https://wangleclare.github.io/categories/C%E7%A8%8B%E5%BA%8F/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>思考</title>
-    <link href="https://wangleclare.github.io/2018/05/28/%E6%80%9D%E8%80%83/"/>
-    <id>https://wangleclare.github.io/2018/05/28/思考/</id>
-    <published>2018-05-28T11:35:52.000Z</published>
-    <updated>2018-05-29T14:21:57.747Z</updated>
-    
-    <content type="html"><![CDATA[<p>重装系统之后</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;重装系统之后&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>first article</title>
-    <link href="https://wangleclare.github.io/2018/05/08/first-article/"/>
-    <id>https://wangleclare.github.io/2018/05/08/first-article/</id>
-    <published>2018-05-07T16:07:55.000Z</published>
-    <updated>2018-05-28T14:32:01.498Z</updated>
-    
-    <content type="html"><![CDATA[<p>只是我的第一篇博客<br><img src="/2018/05/08/first-article/654.jpg" alt="boke"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;只是我的第一篇博客&lt;br&gt;&lt;img src=&quot;/2018/05/08/first-article/654.jpg&quot; alt=&quot;boke&quot;&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="游记、玩乐" scheme="https://wangleclare.github.io/tags/%E6%B8%B8%E8%AE%B0%E3%80%81%E7%8E%A9%E4%B9%90/"/>
+      <category term="排序" scheme="https://wangleclare.github.io/tags/%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   
