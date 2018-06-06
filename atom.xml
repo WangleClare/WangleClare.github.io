@@ -6,26 +6,40 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wangleclare.github.io/"/>
-  <updated>2018-06-06T12:07:00.123Z</updated>
+  <updated>2018-06-06T13:52:36.411Z</updated>
   <id>https://wangleclare.github.io/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>排序算法</title>
+    <title>11</title>
+    <link href="https://wangleclare.github.io/2018/06/06/11/"/>
+    <id>https://wangleclare.github.io/2018/06/06/11/</id>
+    <published>2018-06-06T13:52:36.000Z</published>
+    <updated>2018-06-06T13:52:36.411Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数组的排序算法</title>
     <link href="https://wangleclare.github.io/2018/06/06/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     <id>https://wangleclare.github.io/2018/06/06/排序算法/</id>
-    <published>2018-06-06T11:52:09.000Z</published>
-    <updated>2018-06-06T12:07:00.123Z</updated>
+    <published>2018-06-06T13:52:36.000Z</published>
+    <updated>2018-06-06T15:09:09.098Z</updated>
     
-    <content type="html"><![CDATA[<p>最近在看C语言的时候，看到关于排序算法的问题。排序算法作为数据结构中一类基础又常用的算法，属于必要掌握的一类。于是在这里将几种常见的排序算法作一番整理，日后一时忘记找起来也比较方便。</p>]]></content>
+    <content type="html"><![CDATA[<p>最近在看C语言的时候，看到关于排序算法的问题。排序算法作为数据结构中一类基础又常用的算法，属于必要掌握的一类。于是在这里将几种常见的排序算法作一番整理，日后一时忘记找起来也比较方便。以下介绍的五种排序算法均以文字叙述加上贴出算法代码的方式记录。</p><p>1.选择排序法<br>选择排序法即一个选择的过程，从所输入的数中第一次找出一个最小的放在数组第一位，第二次选择第二小的放在第二位，以此类推，最后一次将倒数第二小的数放在数组倒数第二位，这样就得到一个有序的数组了。下面给出代码：<br>for(i=0;i&lt;9)   /<em>十个数只需要进行九次操作，最后一个数自动排好</em>/<br>{<br>   iTemp=a[i];    /<em>这里的iTemp和iPos用来在寻找最小值的过程中暂时<br>                      记录当前最小值的数值和下标</em>/<br>   iPos=i;<br>   for(j=i+1;j&lt;=9;j++)<br>   {<br>           if(a[j]&lt;iTemp)<br>           {<br>               iTemp=a[j];<br>               iPos=j;<br>           }<br>           a[iPos]=a[i];    /<em>将最小值与循环开始的数交换位置</em>/<br>           a[i]=iTemp;</p><p>   }<br>}</p><p>2.冒泡排序法<br>冒泡排序法排序过程：每一次排序时，从起始位置开始，总是将邻近的两个数组元素进行比较，若后一个数比前一个数小，则交换，否则不交换，这样比较到最后两个数的时候，第一次结束时就将数组中最大的数“交换”到最后。然后循环这个过程，最后讲一个数组排序好（按最小数排序的过程相当，这个过程和排最大数的过程原理相同，方向相反）。以下贴出代码：<br>for(i=0;i&lt;)</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;最近在看C语言的时候，看到关于排序算法的问题。排序算法作为数据结构中一类基础又常用的算法，属于必要掌握的一类。于是在这里将几种常见的排序算法作一番整理，日后一时忘记找起来也比较方便。&lt;/p&gt;
-
+        &lt;p&gt;最近在看C语言的时候，看到关于排序算法的问题。排序算法作为数据结构中一类基础又常用的算法，属于必要掌握的一类。于是在这里将几种常见的排序算法作一番整理，日后一时忘记找起来也比较方便。以下介绍的五种排序算法均以文字叙述加上贴出算法代码的方式记录。&lt;/p&gt;
+&lt;p&gt;1.选择排序法
       
     
     </summary>
@@ -33,7 +47,7 @@
       <category term="C程序" scheme="https://wangleclare.github.io/categories/C%E7%A8%8B%E5%BA%8F/"/>
     
     
-      <category term="排序" scheme="https://wangleclare.github.io/tags/%E6%8E%92%E5%BA%8F/"/>
+      <category term="排序、数组" scheme="https://wangleclare.github.io/tags/%E6%8E%92%E5%BA%8F%E3%80%81%E6%95%B0%E7%BB%84/"/>
     
   </entry>
   
