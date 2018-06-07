@@ -127,7 +127,7 @@
 <meta property="og:site_name" content="Clare">
 <meta property="og:description" content="最近在看C语言的时候，看到关于排序算法的问题。排序算法作为数据结构中一类基础又常用的算法，属于必要掌握的一类。于是在这里将几种常见的排序算法作一番整理，日后一时忘记找起来也比较方便。以下介绍的五种排序算法均以文字叙述加上贴出算法代码的方式记录。 1.选择排序法选择排序法即一个选择的过程，从所输入的数中第一次找出一个最小的放在数组第一位，第二次选择第二小的放在第二位，以此类推，最后一次将倒数第二小的">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-06T15:16:37.161Z">
+<meta property="og:updated_time" content="2018-06-07T08:46:18.216Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数组的排序算法">
 <meta name="twitter:description" content="最近在看C语言的时候，看到关于排序算法的问题。排序算法作为数据结构中一类基础又常用的算法，属于必要掌握的一类。于是在这里将几种常见的排序算法作一番整理，日后一时忘记找起来也比较方便。以下介绍的五种排序算法均以文字叙述加上贴出算法代码的方式记录。 1.选择排序法选择排序法即一个选择的过程，从所输入的数中第一次找出一个最小的放在数组第一位，第二次选择第二小的放在第二位，以此类推，最后一次将倒数第二小的">
@@ -357,7 +357,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  472
+                  1,098
                 </span>
               
 
@@ -373,7 +373,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2
+                  4
                 </span>
               
             </div>
@@ -395,9 +395,11 @@
 
       
         <p>最近在看C语言的时候，看到关于排序算法的问题。排序算法作为数据结构中一类基础又常用的算法，属于必要掌握的一类。于是在这里将几种常见的排序算法作一番整理，日后一时忘记找起来也比较方便。以下介绍的五种排序算法均以文字叙述加上贴出算法代码的方式记录。</p>
-<p>1.选择排序法<br>选择排序法即一个选择的过程，从所输入的数中第一次找出一个最小的放在数组第一位，第二次选择第二小的放在第二位，以此类推，最后一次将倒数第二小的数放在数组倒数第二位，这样就得到一个有序的数组了。下面给出代码：<br>for(i=0;i&lt;9)   /<em>十个数只需要进行九次操作，最后一个数自动排好</em>/<br>{<br>   iTemp=a[i];    /<em>这里的iTemp和iPos用来在寻找最小值的过程中暂时<br>                      记录当前最小值的数值和下标</em>/<br>   iPos=i;<br>   for(j=i+1;j&lt;=9;j++)<br>   {<br>           if(a[j]&lt;iTemp)<br>           {<br>               iTemp=a[j];<br>               iPos=j;<br>           }<br>           a[iPos]=a[i];    /<em>将最小值与循环开始的数交换位置</em>/<br>           a[i]=iTemp;</p>
-<p>   }<br>}</p>
-<p>2.冒泡排序法<br>冒泡排序法排序过程：每一次排序时，从起始位置开始，总是将邻近的两个数组元素进行比较，若后一个数比前一个数小，则交换，否则不交换，这样比较到最后两个数的时候，第一次结束时就将数组中最大的数“交换”到最后。然后循环这个过程，最后讲一个数组排序好（按最小数排序的过程相当，这个过程和排最大数的过程原理相同，方向相反）。以下贴出代码：<br>for(i=0;i&lt;)</p>
+<p>1.选择排序法<br>选择排序法即一个选择的过程，从所输入的数中第一次找出一个最小的放在数组第一位，第二次选择第二小的放在第二位，以此类推，最后一次将倒数第二小的数放在数组倒数第二位，这样就得到一个有序的数组了。下面给出代码：<br>for(i=0;i&lt;9)   /<em>十个数只需要进行九次操作，最后一个数自动排好</em>/<br>{<br>   iPos=i;<br>   iTemp=a[i];    /<em>这里的iTemp和iPos用来在寻找最小值的过程中暂时记录当前最小值的数值和下标</em>/<br>   for(j=i+1;j&lt;=9;j++)<br>   {<br>      if(a[j]&lt;iTemp)<br>      {<br>         iPos=j;<br>         iTemp=a[j];<br>      }<br>      a[iPos]=a[i];    /<em>将最小值与循环开始的数交换位置</em>/<br>      a[i]=iTemp;<br>   }<br>}</p>
+<p>2.冒泡排序法<br>冒泡排序法排序过程：每一次排序时，从起始位置开始，总是将邻近的两个数组元素进行比较，若后一个数比前一个数小，则交换，否则不交换，这样比较到最后两个数的时候，第一次结束时就将数组中最大的数“交换”到最后。然后循环这个过程，最后将一个数组排序好（按最小数排序的过程相当，这个过程和排最大数的过程原理相同，方向相反）。以下贴出代码（代码为按最小数排序的情况）：<br>for(i=1;i&lt;=9；i++)<br>{<br>   for(j=9;j&gt;=i;j–)<br>   {<br>      if(a[j]&lt;a[j-1])<br>      {<br>         iTemp=a[j];   /<em>iTemp为中间变量，用于交换数组元素用</em>/<br>         a[j]=a[j-1];<br>         a[j-1]=iTemp;<br>      }<br>   }<br>}</p>
+<p>3.交换法排序<br>交换法排序的思想为：首次时，从第一个数开始往后寻找，当一遇到比第一个数小的数时，就交换它们的位置，然后继续往后寻找，当再找到比交换后的第一个数小的数时，再次交换它俩的位置，这样直至寻到最后一个数；第二步从第二个数开始，重复第一步的过程找出第二小的数。若干步之后，就能得到一个有序的数组。说完思想，下面举出代码实例：<br>for(i=0;i&lt;9;i++)<br>{<br>   for(j=i+1;j&lt;=9;j++)<br>   {<br>      if(a[i]&gt;a[j])<br>      {<br>         iTemp=a[j];<br>         a[j]=a[i];<br>         a[i]=iTemp;<br>      }<br>   }<br>}</p>
+<p>4.插入法排序<br>插入法排序的过程为：依次从数组中取出一个数，插入已排序好的数组的合适位置。合适位置的含义为：从已排序好的数组的末尾开始，与取出的这个数进行比较。若取出的这个数比末尾的数字大，则将取出的数放在排序好的数组末尾；若取出的数比末尾的数小，则向前比较，直到在有序数组中第一次找到比取出的数小的数，将取出的数放在这个较小数的后面，结束插入。然后重复过程，直到所有无序数插入完毕。以下作代码讲解。<br>for(i=1;i&lt;=9;i++)<br>{<br>   iTemp=a[i];<br>   iPos=i-1;<br>   while((iPos&gt;=0)&amp;&amp;(iTemp&lt;a[iPos]))<br>   {<br>      a[iPos+1]=a[iPos];<br>      iPos–;<br>   }<br>   a[iPos+1]=iTemp;<br>}</p>
+<p>5.折半排序法<br>折半排序法选取一个中间值（即数组中间位置的值），然后从数组的两头开始往中间比较，把比中间值小的元素放在左边，比中间值大的元素放在右边，然后在左边和右边再次使用折半法。最终得到有序数组。这个排序法涉及到递归函数的使用，下面给出代码：<br>void CelerityRun(int left,int right,int array[])<br>{<br>   int i,j;<br>   int middle,iTemp;<br>   i=left;<br>   j=right;<br>   middle=array[(left+right)/2];<br>   do<br>   {<br>      while((array[i]&lt;middle)&amp;&amp;(i&lt;right))<br>         i++<br>      while((array[j]&gt;middle)&amp;&amp;(j&gt;left))<br>         j–;<br>      if(i&lt;=j)<br>      {<br>         iTemp=a[j];<br>         a[j]=a[i];<br>         a[i]=iTemp;<br>         i++;<br>         j–;<br>      }<br>   }while(i&lt;=j);<br>   if(left&lt;j)                    /<em>递归左右两边</em>/<br>      CelerityRun(left,j,array)<br>   if(right&gt;i)<br>      CelerityRun(i,right,array)<br>}</p>
 
       
     </div>
@@ -652,7 +654,7 @@ var jiathis_config={
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共472字</span>
+  <span class="post-count">博客全站共1.1k字</span>
 </div>
         
 
